@@ -49,5 +49,8 @@ export default {
 </script>
 
 <template>
-  <img :src="innerSrc" ref="img" />
+  <img
+    ref="img"
+    :src="innerSrc"
+  />
 </template>

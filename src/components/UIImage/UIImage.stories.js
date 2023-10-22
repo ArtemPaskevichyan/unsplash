@@ -2,7 +2,6 @@ import UIImage from "./UIImage.vue";
 
 export default {
   component: UIImage,
-  title: "UIImage",
   tags: ["autodocs"],
   render: () => ({
     components: { UIImage },
