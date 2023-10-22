@@ -22,6 +22,7 @@ export default {
   setup(props) {
     const innerSrc = ref(props.src);
     const img = ref(null);
+    // console.log("TEST");
     if (props.lazy) {
       const dataImage = new Image();
       const observerCallback = () => {
